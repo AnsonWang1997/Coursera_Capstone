@@ -1,2 +1,2 @@
 # Coursera_Capstone
-This Capstone project aims to utilize location data to analyze neighborhoods in Toronto.
+This Capstone project aims to utilize location data to analyze neighborhoods for new job getters in Toronto.
