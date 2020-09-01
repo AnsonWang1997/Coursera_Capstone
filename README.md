@@ -1,5 +1,5 @@
 # Coursera_Capstone
-This Capstone project aims to utilize location data to analyze neighborhoods for new job getters in Toronto.
+This Capstone project aims to utilize location data to analyze neighborhoods in New York City, Toronto and Paris.
 
 ## Introduction:
 In this project, we utilized location data to analyze, cluster and compare neighborhoods in New York, Toronto and Paris to detect the differences and similarities of the distribution of business over these cities. 
@@ -15,10 +15,13 @@ The features in the neighborhood dataframe should contain the name of neighborho
 
 The features in the venue information dataframe should include the name of the venue, the neighborhoods it currently belongs to, and the venue's type of business. The dataframe will be merged and aggregated with one-hot encoding to find the business distribution of these cities, which is the fundamentals of the following clustering operations
 
-## 3)	Methodology:
+## Methodology:
 
 Clustering is one of the most common exploratory data analysis technique used to get an intuition about the structure of the data. It can be defined as the task of identifying subgroups in the data such that data points in the same subgroup (cluster) are very similar while data points in different clusters are very different.
 
 Kmeans algorithm is an iterative algorithm that tries to partition the dataset into Kpre-defined distinct non-overlapping subgroups (clusters) where each data point belongs to only one group. It tries to make the intra-cluster data points as similar as possible while also keeping the clusters as different (far) as possible. It assigns data points to a cluster such that the sum of the squared distance between the data points and the cluster’s centroid.
 
 Another way, which is more advanced in data mining, is the hierarchical clustering. Hierarchical clustering is separating data into groups based on some measure of similarity, finding a way to measure how they’re alike and different, and further narrowing down the data.
+
+## Files:
+Please refer to the report.pdf and the notebook Battle of Neighborhoods for the final project. Additionaly, the Toronto location data analysis notebook in week 2 and week 3 are practice assignments of the coursera course. If you have any other issues with the document, please reach out to me.
